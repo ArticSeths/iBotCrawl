@@ -20,10 +20,10 @@ function twentyseventeen_custom_colors_css() {
 	 *
 	 * @param int $saturation Color saturation level.
 	 */
-	$saturation         = absint( apply_filters( 'twentyseventeen_custom_colors_saturation', 50 ) );
+	$saturation = absint( apply_filters( 'twentyseventeen_custom_colors_saturation', 50 ) );
 	$reduced_saturation = ( .8 * $saturation ) . '%';
-	$saturation         = $saturation . '%';
-	$css                = '
+	$saturation = $saturation . '%';
+	$css = '
 /**
  * Twenty Seventeen: Color Patterns
  *
@@ -36,8 +36,6 @@ function twentyseventeen_custom_colors_css() {
 .colors-custom .entry-content a:hover,
 .colors-custom .entry-summary a:focus,
 .colors-custom .entry-summary a:hover,
-.colors-custom .comment-content a:focus,
-.colors-custom .comment-content a:hover,
 .colors-custom .widget a:focus,
 .colors-custom .widget a:hover,
 .colors-custom .site-footer .widget-area a:focus,
@@ -93,7 +91,6 @@ function twentyseventeen_custom_colors_css() {
 
 .colors-custom .entry-content a,
 .colors-custom .entry-summary a,
-.colors-custom .comment-content a,
 .colors-custom .widget a,
 .colors-custom .site-footer .widget-area a,
 .colors-custom .posts-navigation a,
@@ -155,8 +152,6 @@ function twentyseventeen_custom_colors_css() {
 .colors-custom .entry-content a:hover,
 .colors-custom .entry-summary a:focus,
 .colors-custom .entry-summary a:hover,
-.colors-custom .comment-content a:focus,
-.colors-custom .comment-content a:hover,
 .colors-custom .widget a:focus,
 .colors-custom .widget a:hover,
 .colors-custom .site-footer .widget-area a:focus,
@@ -498,8 +493,6 @@ body.colors-custom,
 .colors-custom .entry-content a:focus,
 .colors-custom .entry-summary a:hover,
 .colors-custom .entry-summary a:focus,
-.colors-custom .comment-content a:focus,
-.colors-custom .comment-content a:hover,
 .colors-custom .widget a:hover,
 .colors-custom .widget a:focus,
 .colors-custom .site-footer .widget-area a:hover,
