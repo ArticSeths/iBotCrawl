@@ -12,7 +12,7 @@ function stylePage() {
 
 get_header();
 ?>
-<h1>Esto es una prueba</h1>
+<h1>Esto es una prueba 2</h1>
 <?php
 get_footer();
 ?>
