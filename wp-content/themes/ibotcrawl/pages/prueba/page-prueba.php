@@ -30,7 +30,16 @@ function stylePage() {
     <script>
 			var socket = io.connect('https://ibotcrawl.com:3000/' ,{'forceNew': true });
 
-            jQuery()
+            socket.on('nuevoMensaje', function(data){
+                var mensajes = jQuery('#mensajes').html();
+                var txt = mensajes + '<br>' + data;
+                jQuery('#mensajes').html(txt);
+            });
+
+            function enviar(){
+                var txt = jQuery("#texto").val();
+                socket.emit('nuevoMensaje', txt);
+            }
     </script>
 </body>
 </html>
