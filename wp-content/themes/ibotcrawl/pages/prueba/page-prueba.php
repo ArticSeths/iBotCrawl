@@ -22,6 +22,15 @@ function stylePage() {
 		<script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
+    <style media="screen">
+        .pj{
+            width: 50px;
+            height: 50px;
+            background: black;
+            position: rela
+        }
+    </style>
+    <div id="casilla"></div>
     <div id="mensajes">
 
     </div>
@@ -29,13 +38,34 @@ function stylePage() {
     <button onclick="enviar()">Enviar</button>
     <script>
 			var socket = io.connect('https://ibotcrawl.com:3000/' ,{'forceNew': true });
+            var id = '';
+
+
+            socket.on('crearDivUser', function(data){
+                var id = jQuery(data).data('id');
+                jQuery('#casilla').html(data);
+            });
+
+            socket.on('move', function(data){
+                var pos = data.split(",");
+                jQuery('#'+id).css('top', pos[1]);
+                jQuery('#'+id).css('left', pos[0]);
+            });
+
+            jQuery(window).mousemove(function( event ) {
+              socket.emit('move', event.pageX + "," + event.pageY);
+            });
+
+
+
+
+
 
             socket.on('nuevoMensaje', function(data){
                 var mensajes = jQuery('#mensajes').html();
                 var txt = mensajes + '<br>' + data;
                 jQuery('#mensajes').html(txt);
             });
-
             function enviar(){
                 var txt = jQuery("#texto").val();
                 socket.emit('nuevoMensaje', txt);
