@@ -27,7 +27,7 @@ function stylePage() {
             width: 50px;
             height: 50px;
             background: black;
-            position: rela
+            position: relative;
         }
     </style>
     <div id="casilla"></div>
