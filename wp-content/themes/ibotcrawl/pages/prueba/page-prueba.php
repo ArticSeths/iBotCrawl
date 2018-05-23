@@ -22,7 +22,7 @@ function stylePage() {
 </head>
 <body>
     <script>
-	var socket = io.connect('http://ibotcrawl.com:3000/' ,{'forceNew': true });
+	var socket = io.connect('https://ibotcrawl.com:3000/' ,{'forceNew': true });
     </script>
 </body>
 </html>
