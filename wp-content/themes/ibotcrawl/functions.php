@@ -75,8 +75,8 @@ add_filter('login_redirect', 'def_redirect_login');
 
 
 //capar Paginas si no estas logueado
-if(!is_user_logged_in() && $_SERVER['REQUEST_URI'] != '/wp-login.php'){
+/*if(!is_user_logged_in() && $_SERVER['REQUEST_URI'] != '/wp-login.php'){
     wp_redirect (home_url("/wp-login.php"));
     exit;
-}
+}*/
 ?>
