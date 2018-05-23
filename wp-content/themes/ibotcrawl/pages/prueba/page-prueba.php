@@ -10,9 +10,22 @@ function stylePage() {
 	wp_register_style('css-prueba', $templateDir . '/pages/prueba/css-prueba.css'); wp_enqueue_style('css-prueba');
 }
 
-get_header();
+//get_header();
 ?>
-<h1>Esto es una prueba 2</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+</head>
+<body>
+    <script>
+	var socket = io.connect('http://ibotcrawl.com:3000/' ,{'forceNew': true });
+    </script>
+</body>
+</html>
 <?php
-get_footer();
+//get_footer();
 ?>
