@@ -48,8 +48,9 @@ function stylePage() {
 
             socket.on('move', function(data){
                 var pos = data.split(",");
-                jQuery('#'+id).css('top', pos[1]);
-                jQuery('#'+id).css('left', pos[0]);
+                var posx = pos[0]+'px';
+                var posy = pos[1]+'px';
+                jQuery('#'+id).css({"top": posy, "left": posx});
             });
 
             jQuery(window).mousemove(function( event ) {
