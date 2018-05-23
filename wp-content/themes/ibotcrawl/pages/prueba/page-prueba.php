@@ -50,7 +50,7 @@ function stylePage() {
                 var pos = data.split(",");
                 var posx = pos[0]+'px';
                 var posy = pos[1]+'px';
-                jQuery('#'+id).css({"top": posy, "left": posx});
+                jQuery('.pj').css({"top": posy, "left": posx});
             });
 
             jQuery(window).mousemove(function( event ) {
