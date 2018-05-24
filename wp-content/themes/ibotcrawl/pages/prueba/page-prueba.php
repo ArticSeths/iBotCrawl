@@ -40,7 +40,7 @@ function stylePage() {
 
         .mensaje{
             position: absolute;
-            top: -40px;
+            bottom: -40px;
             left: -15px;
             max-width: 100px;
             min-width: 100px;
