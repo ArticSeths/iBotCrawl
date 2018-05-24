@@ -51,7 +51,7 @@ function stylePage() {
             });
 
             socket.on('disconnectedUser', function(data){
-                jQuery('#'+data).remove();
+                jQuery('[data-id="'+data+'"]').remove();
             });
 
             socket.on('move', function(data){
