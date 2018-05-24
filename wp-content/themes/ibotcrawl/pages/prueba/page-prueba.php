@@ -21,15 +21,34 @@ function stylePage() {
                 <script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
+    <input id="mensaje">
     <style media="screen">
         html{
           cursor: none;
         }
-        .pj{
-            width: 50px;
-            height: 50px;
-            background: black;
-            position: relative;
+        .player{
+            width: 100px;
+            height: 60px;
+            padding-top: 40px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px #ccc;
+            font-family: monospace;
+            font-weight: 900;
+            position: absolute;
+        }
+
+        .mensaje{
+            position: absolute;
+            top: -40px;
+            left: -15px;
+            max-width: 100px;
+            min-width: 100px;
+            border: 1px solid #ccc;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            text-align: left;
         }
     </style>
     <!-- <div id="casilla"></div>
@@ -58,14 +77,14 @@ function stylePage() {
             socket.on('checkUsers', function(data){
                 jQuery.each(data, function( index, value ) {
                   if(!jQuery('[data-id="'+value[0]+'"]').length){
-                      var html = '<div style="width: 25px; height: 25px;background: '+value[2]+';position: absolute;" data-id="'+value[0]+'">'+value[1]+'</div>';
+                      var html = '<div class="player" style="background: '+value[2]+';" data-id="'+value[0]+'"><div class="nombre">'+value[1]+'</div><div class="mensaje"></div></div>';
                       jQuery('body').append(html);
                   }
                 });
             });
 
             socket.on('saveName', function(data){
-                jQuery('[data-id="'+data[0]+'"]').text(data[1]);
+                jQuery('[data-id="'+data[0]+'"]').find('.nombre').text(data[1]);
                 jQuery('[data-id="'+data[0]+'"]').css('background', data[2]);
             });
 
@@ -77,6 +96,17 @@ function stylePage() {
             });
             jQuery(window).mousemove(function( event ) {
               socket.emit('move', event.pageX + "," + event.pageY);
+            });
+
+            jQuery(document).keypress(function(e){
+               jQuery('input#mensaje').focus();
+               if(e.which == 13) {
+                   socket.emit('mensaje', jQuery('input#mensaje').val());
+               }
+            });
+
+            socket.on('mensaje', function(data){
+                jQuery('[data-id="'+data[0]+'"]').find('.mensaje').text(data[1]);
             });
     </script>
 </body>
