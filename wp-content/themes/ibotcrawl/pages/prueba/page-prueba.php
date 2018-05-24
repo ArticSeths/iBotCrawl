@@ -44,10 +44,10 @@ function stylePage() {
                 socket.emit('checkUsers');
             });
             socket.on('connectedUser', function(data){
-                if(!jQuery('[data-id="'+data+'"]').length){
+                /*if(!jQuery('[data-id="'+data+'"]').length){
                     var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+data+'"></div>';
                     jQuery('body').append(html);
-                }
+                }*/
             });
 
             socket.on('disconnectedUser', function(data){
