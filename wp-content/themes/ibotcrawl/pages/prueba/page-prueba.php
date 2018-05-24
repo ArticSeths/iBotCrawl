@@ -42,16 +42,30 @@ function stylePage() {
             var socket = io.connect('https://ibotcrawl.com:3000/' ,{'forceNew': true });
             jQuery(window).ready(function(){
                 socket.emit('checkUsers');
+
+                var name = prompt("Introduce tu nombre");
+                if (name != null) {
+                    socket.emit('saveName', name);
+                }
             });
             socket.on('connectedUser', function(data){
-                /*if(!jQuery('[data-id="'+data+'"]').length){
-                    var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+data+'"></div>';
-                    jQuery('body').append(html);
-                }*/
             });
 
             socket.on('disconnectedUser', function(data){
                 jQuery('[data-id="'+data+'"]').remove();
+            });
+
+            socket.on('checkUsers', function(data){
+                jQuery.each(data, function( index, value ) {
+                  if(!jQuery('[data-id="'+value[0]+'"]').length){
+                      var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+value[0]+'">'+value[1]+'</div>';
+                      jQuery('body').append(html);
+                  }
+                });
+            });
+
+            socket.on('saveName', function(data){
+                jQuery('[data-id="'+data[0]+'"]').text(data[1]);
             });
 
             socket.on('move', function(data){
@@ -60,16 +74,6 @@ function stylePage() {
                 var posy = pos[1]+'px';
                 jQuery('[data-id="'+data[0]+'"]').css({"top": posy, "left": posx});
             });
-
-            socket.on('checkUsers', function(data){
-                jQuery.each(data, function( index, value ) {
-                  if(!jQuery('[data-id="'+value+'"]').length){
-                      var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+value+'"></div>';
-                      jQuery('body').append(html);
-                  }
-                });
-            });
-
             jQuery(window).mousemove(function( event ) {
               socket.emit('move', event.pageX + "," + event.pageY);
             });
