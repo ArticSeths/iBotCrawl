@@ -102,6 +102,7 @@ function stylePage() {
                jQuery('input#mensaje').focus();
                if(e.which == 13) {
                    socket.emit('mensaje', jQuery('input#mensaje').val());
+                   jQuery('input#mensaje').val('');
                }
             });
 
