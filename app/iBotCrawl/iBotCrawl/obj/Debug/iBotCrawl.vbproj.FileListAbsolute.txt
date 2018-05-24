@@ -2,9 +2,6 @@ C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\bin\Debu
 C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\bin\Debug\iBotCrawl.exe
 C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\bin\Debug\iBotCrawl.pdb
 C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\bin\Debug\iBotCrawl.xml
-C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\bin\Debug\MySql.Data.dll
-C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\bin\Debug\Google.Protobuf.dll
-C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\bin\Debug\MySql.Data.xml
 C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\obj\Debug\iBotCrawl.vbprojResolveAssemblyReference.cache
 C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\obj\Debug\iBotCrawl.Form1.resources
 C:\Users\Admin\Documents\Repositorios\iBotCrawl\app\iBotCrawl\iBotCrawl\obj\Debug\iBotCrawl.Resources.resources

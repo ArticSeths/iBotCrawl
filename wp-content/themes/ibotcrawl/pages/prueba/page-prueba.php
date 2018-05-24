@@ -12,17 +12,19 @@ function stylePage() {
 
 //get_header();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Prueba</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
-		<script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+                <script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 <body>
     <style media="screen">
+        html{
+          cursor: none;
+        }
         .pj{
             width: 50px;
             height: 50px;
@@ -30,50 +32,50 @@ function stylePage() {
             position: relative;
         }
     </style>
-    <div id="casilla"></div>
+    <!-- <div id="casilla"></div>
     <div id="mensajes">
 
     </div>
     <textarea id="texto"></textarea>
-    <button onclick="enviar()">Enviar</button>
+    <button onclick="enviar()">Enviar</button> -->
     <script>
-			var socket = io.connect('https://ibotcrawl.com:3000/' ,{'forceNew': true });
-            var id = '';
+            var socket = io.connect('https://ibotcrawl.com:3000/' ,{'forceNew': true });
 
+            socket.on('connectedUser', function(data){
+                var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+data+'"></div>';
+                jQuery('body').append(html);
 
-            socket.on('crearDivUser', function(data){
-                var id = jQuery(data).data('id');
-                jQuery('#casilla').html(data);
+                socket.emit('checkUsers', '');
+            });
+            socket.on('disconnectedUser', function(data){
+                jQuery('#'+data).remove();
             });
 
             socket.on('move', function(data){
-                var pos = data.split(",");
+                var pos = data[1].split(",");
                 var posx = pos[0]+'px';
                 var posy = pos[1]+'px';
-                jQuery('.pj').css({"top": posy, "left": posx});
+                jQuery('[data-id="'+data[0]+'"]').css({"top": posy, "left": posx});
+            });
+
+            socket.on('checkUsers', function(data){
+                console.log(data);
+
+                jQuery.each(data, function( index, value ) {
+                  if(!jQuery('[data-id="'+value+'"]').length){
+                      var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+value+'"></div>';
+                      jQuery('body').append(html);
+                  }
+                });
             });
 
             jQuery(window).mousemove(function( event ) {
               socket.emit('move', event.pageX + "," + event.pageY);
             });
-
-
-
-
-
-
-            socket.on('nuevoMensaje', function(data){
-                var mensajes = jQuery('#mensajes').html();
-                var txt = mensajes + '<br>' + data;
-                jQuery('#mensajes').html(txt);
-            });
-            function enviar(){
-                var txt = jQuery("#texto").val();
-                socket.emit('nuevoMensaje', txt);
-            }
     </script>
 </body>
 </html>
+
 <?php
 //get_footer();
 ?>
