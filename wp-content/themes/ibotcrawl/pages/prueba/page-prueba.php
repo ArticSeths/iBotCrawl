@@ -58,7 +58,7 @@ function stylePage() {
             socket.on('checkUsers', function(data){
                 jQuery.each(data, function( index, value ) {
                   if(!jQuery('[data-id="'+value[0]+'"]').length){
-                      var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+value[0]+'">'+value[1]+'</div>';
+                      var html = '<div style="width: 25px; height: 25px;background: '+value[2]+';position: absolute;" data-id="'+value[0]+'">'+value[1]+'</div>';
                       jQuery('body').append(html);
                   }
                 });
@@ -66,6 +66,7 @@ function stylePage() {
 
             socket.on('saveName', function(data){
                 jQuery('[data-id="'+data[0]+'"]').text(data[1]);
+                jQuery('[data-id="'+data[0]+'"]').css('background', data[2]);
             });
 
             socket.on('move', function(data){
