@@ -44,9 +44,8 @@ function stylePage() {
             socket.on('connectedUser', function(data){
                 var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+data+'"></div>';
                 jQuery('body').append(html);
-
-                socket.emit('checkUsers', '');
             });
+
             socket.on('disconnectedUser', function(data){
                 jQuery('#'+data).remove();
             });
@@ -59,8 +58,6 @@ function stylePage() {
             });
 
             socket.on('checkUsers', function(data){
-                console.log(data);
-
                 jQuery.each(data, function( index, value ) {
                   if(!jQuery('[data-id="'+value+'"]').length){
                       var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+value+'"></div>';
