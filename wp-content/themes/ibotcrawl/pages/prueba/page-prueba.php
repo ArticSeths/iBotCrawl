@@ -40,7 +40,9 @@ function stylePage() {
     <button onclick="enviar()">Enviar</button> -->
     <script>
             var socket = io.connect('https://ibotcrawl.com:3000/' ,{'forceNew': true });
-
+            jQuery(window).ready(function(){
+                socket.emit('checkUsers');
+            });
             socket.on('connectedUser', function(data){
                 var html = '<div style="width: 25px; height: 25px;background: green;position: absolute;" data-id="'+data+'"></div>';
                 jQuery('body').append(html);
