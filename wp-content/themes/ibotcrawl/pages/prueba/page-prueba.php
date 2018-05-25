@@ -86,10 +86,18 @@ function stylePage() {
                 }
             });
             socket.on('connectedUser', function(data){
+                new PNotify({
+                    text: 'Un usuario se ha conectado!',
+                    type: 'success'
+                });
             });
 
             socket.on('disconnectedUser', function(data){
                 jQuery('[data-id="'+data+'"]').remove();
+                new PNotify({
+                    text: 'Se ha desconectado un usuario',
+                    type: 'error'
+                });
             });
 
             socket.on('checkUsers', function(data){
