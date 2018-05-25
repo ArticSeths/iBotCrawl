@@ -141,6 +141,10 @@ function stylePage() {
             });
 
             socket.on('point', function(data){
+                new PNotify({
+                    text: 'punto para '+data[0],
+                    type: 'error'
+                });
                 jQuery('.point').css({"top": data[2], "left": data[1]});
             });
 
