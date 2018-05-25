@@ -170,7 +170,6 @@ function stylePage() {
             });
 
             socket.on('updateMarcador', function(data){
-                data = data[0];
                 jQuery.each(data, function( index, value ) {
                     jQuery('[data-idmarcador="'+value[0]+'"]').html(value[1]+': <strong>'+value[3]+'</strong>');
                 });
