@@ -166,10 +166,6 @@ function stylePage() {
             });
 
             socket.on('point', function(data){
-                new PNotify({
-                    text: 'Punto para '+data[0]+'!',
-                    type: 'info'
-                });
                 jQuery('.point').css({"top": data[2], "left": data[1]});
             });
 
