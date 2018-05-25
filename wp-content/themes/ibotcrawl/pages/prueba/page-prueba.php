@@ -25,6 +25,7 @@ function stylePage() {
     <style media="screen">
         html{
           cursor: none;
+          background: #f5f5f5;
         }
         .player{
             width: 100px;
@@ -49,6 +50,19 @@ function stylePage() {
             border-radius: 5px;
             font-size: 0.8em;
             text-align: left;
+        }
+
+        input#mensaje{
+            position: fixed;
+            bottom: 0;
+            font-size: 3em;
+            z-index: 1;
+            width: 100%;
+            margin-left: -10px;
+            background-color: white;
+            font-family: monospace;
+            border-top: 1px solid #ccc;
+            box-shadow: 0px 0px 5px #ccc;
         }
     </style>
     <!-- <div id="casilla"></div>
