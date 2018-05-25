@@ -26,6 +26,7 @@ function stylePage() {
 </head>
 <body>
     <div class="point" style="position: absolute;top: 400px;left: 400px;width: 15px; height: 15px;border-radius:100px;background:red;"></div>
+    <div class="marcador"></div>
     <input id="mensaje">
     <style media="screen">
         html{
@@ -68,6 +69,19 @@ function stylePage() {
             font-family: monospace;
             border-top: 1px solid #ccc;
             box-shadow: 0px 0px 5px #ccc;
+        }
+
+        .marcador{
+            position: absolute;
+            bottom: 60px;
+            background: #ffffff75;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px #ccc;
+            border: 1px solid #ccc;
+            width: 200px;
+            min-height: 150px;
+            right: 10px;
+            z-index: 1;
         }
     </style>
     <!-- <div id="casilla"></div>
