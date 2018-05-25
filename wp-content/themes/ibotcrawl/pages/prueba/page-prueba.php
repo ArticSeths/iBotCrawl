@@ -120,7 +120,9 @@ function stylePage() {
                 var posx = pos[0]+'px';
                 var posy = pos[1]+'px';
                 jQuery('[data-id="'+data[0]+'"]').css({"top": posy, "left": posx});
-                console.log(collision(jQuery('[data-id="'+data[0]+'"]'), jQuery('.point')));
+                if(collision(jQuery('[data-id="'+data[0]+'"]'), jQuery('.point'))){
+                    socket.emit('point', [data[0]]);
+                }
             });
             jQuery(window).mousemove(function( event ) {
               socket.emit('move', event.pageX + "," + event.pageY);
@@ -136,6 +138,10 @@ function stylePage() {
 
             socket.on('mensaje', function(data){
                 jQuery('[data-id="'+data[0]+'"]').find('.mensaje').text(data[1]);
+            });
+
+            socket.on('point', function(data){
+                jQuery('.point').css({"top": data[2], "left": data[1]});
             });
 
 
