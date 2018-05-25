@@ -135,7 +135,7 @@ function stylePage() {
 
             socket.on('saveName', function(data){
                 jQuery('[data-id="'+data[0]+'"]').find('.nombre').text(data[1]);
-                jQuery('[data-idmarcador="'+data[0]+'"]').html(value[1]+': <strong>'+value[3]+'</strong>');
+                jQuery('[data-idmarcador="'+data[0]+'"]').html(data[1]+': <strong>'+data[3]+'</strong>');
                 jQuery('[data-id="'+data[0]+'"]').css('background', data[2]);
             });
 
