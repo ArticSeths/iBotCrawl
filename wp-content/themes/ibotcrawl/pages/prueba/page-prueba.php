@@ -121,6 +121,7 @@ function stylePage() {
                 var posy = pos[1]+'px';
                 jQuery('[data-id="'+data[0]+'"]').css({"top": posy, "left": posx});
                 if(collision(jQuery('[data-id="'+data[0]+'"]'), jQuery('.point'))){
+                    jQuery('.point').css({"top": '-99px', "left": "-99px"});
                     socket.emit('point', [data[0]]);
                 }
             });
