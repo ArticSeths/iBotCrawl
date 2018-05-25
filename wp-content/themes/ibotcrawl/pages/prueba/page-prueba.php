@@ -83,6 +83,12 @@ function stylePage() {
             right: 10px;
             z-index: 1;
         }
+
+        .marcadorUser{
+            display: block;
+            width: 100%;
+            margin: 10px;
+        }
     </style>
     <!-- <div id="casilla"></div>
     <div id="mensajes">
@@ -109,6 +115,7 @@ function stylePage() {
 
             socket.on('disconnectedUser', function(data){
                 jQuery('[data-id="'+data+'"]').remove();
+                jQuery('[data-idmarcador="'+data+'"]').remove();
                 new PNotify({
                     text: 'Se ha desconectado un usuario',
                     type: 'error'
@@ -120,6 +127,8 @@ function stylePage() {
                   if(!jQuery('[data-id="'+value[0]+'"]').length){
                       var html = '<div class="player" style="background: '+value[2]+';" data-id="'+value[0]+'"><div class="nombre">'+value[1]+'</div><div class="mensaje"></div></div>';
                       jQuery('body').append(html);
+                      html = '<div data-idmarcador="'+value[0]+'" class="marcadorUser">'+value[1]+': <strong>'+value[3]+'</strong></div>';
+                      jQuery('.marcador').append(html);
                   }
                 });
             });
@@ -161,6 +170,10 @@ function stylePage() {
                     type: 'info'
                 });
                 jQuery('.point').css({"top": data[2], "left": data[1]});
+            });
+
+            socket.on('updateMarcador', function(data){
+                jQuery('[data-idmarcador="'+data[0]+'"]').html(data[1]+': <strong>'+data[3]+'</strong>');
             });
 
 
