@@ -94,7 +94,7 @@ function stylePage() {
     <a id="comenzar" class="btn-jugar" onclick="listo()">Listo!</a>
   </div>
   <script>
-    var socket = io.connect('https://www.ibotcrawl:4500/' ,{'forceNew': true });
+    var socket = io.connect('https://www.ibotcrawl.com:4500/' ,{'forceNew': true });
     var tokenID = '';
     jQuery(window).ready(function(){
       var name = prompt("Introduce tu nombre");
