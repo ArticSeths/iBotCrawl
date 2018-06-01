@@ -267,7 +267,7 @@
 <?php
 //get_footer();
 ?>
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script type="text/javascript">
 	particlesJS.load('particles-js', '/wp-content/themes/ibotcrawl/assets/particles.json', function() {
 		console.log('callback - particles.js config loaded');
