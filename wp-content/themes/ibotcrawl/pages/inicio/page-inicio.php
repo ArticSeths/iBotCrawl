@@ -60,7 +60,7 @@
         <div class="bg-caption pull-bottom sm-pull-bottom text-white p-l-20 m-b-20">
           <h2 class="semi-bold text-white">Adentrate en la red de iBotCrawl con más de <strong>14.560</strong> nodos</h2>
           <p class="small">
-            La primera red p2p de posicionamiento web controlada por una IA. © Copyright todos los derechos reservados a iBotCrawl 2018.
+            La primera red P2P de posicionamiento web controlada por una IA. © Copyright todos los derechos reservados a iBotCrawl 2018.
           </p>
         </div>
         <!-- END Background Caption-->
