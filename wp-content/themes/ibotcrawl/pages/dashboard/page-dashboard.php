@@ -533,8 +533,8 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="card-description">
-                    <div id="rickshaw-realtime_y_axis" class=""></div>
                     <div id="rickshaw-realtime" class="rickshaw-chart"></div>
+                    <div id="legend"></div>
                   </div>
                   <div class="card-footer clearfix">
                     <div class="pull-left">via <span class="text-complete">Pages</span>
@@ -2304,5 +2304,60 @@
     <script src="/wp-content/themes/ibotcrawl/assets/js/dashboard.js" type="text/javascript"></script>
     <script src="/wp-content/themes/ibotcrawl/assets/js/scripts.js" type="text/javascript"></script>
     <!-- END PAGE LEVEL JS -->
+    <script>
+      var timeInterval = 2000;
+      // instantiate our graph!
+      var graph = new Rickshaw.Graph({
+        element: document.getElementById("rickshaw-realtime"),
+        width: 900,
+        height: 500,
+        renderer: 'line',
+        series: new Rickshaw.Series.FixedDuration([{ name: 'Failed', color: '#B1003E' }, { name: 'Total', color: '#006f68' }], undefined, {
+          timeInterval: timeInterval,
+          maxDataPoints: 100,
+        })
+      });
+      graph.render();
+      var ticksTreatment = 'glow';
+      var xAxis = new Rickshaw.Graph.Axis.Time( {
+        graph: graph,
+        ticksTreatment: ticksTreatment,
+        timeFixture: new Rickshaw.Fixtures.Time.Local()
+      } );
+      xAxis.render();
+      var yAxis = new Rickshaw.Graph.Axis.Y({
+        graph: graph,
+        ticksTreatment: ticksTreatment,
+        tickFormat: Rickshaw.Fixtures.Number.formatKMBT
+      });
+      yAxis.render();
+      var hoverDetail = new Rickshaw.Graph.HoverDetail({
+        graph: graph,
+        xFormatter: function(x) { return new Date(x * 1000).toString() },
+        yFormatter: function(y) { return Math.floor(y) }
+      });
+      var legend = new Rickshaw.Graph.Legend( {
+        graph: graph,
+        element: document.getElementById('legend')
+      } );
+      var shelving = new Rickshaw.Graph.Behavior.Series.Toggle( {
+        graph: graph,
+        legend: legend
+      } );
+      var order = new Rickshaw.Graph.Behavior.Series.Order( {
+        graph: graph,
+        legend: legend
+      } );
+      var highlighter = new Rickshaw.Graph.Behavior.Series.Highlight( {
+        graph: graph,
+        legend: legend
+      } );
+      // add some data every so often
+      var i = 0;
+      var iv = setInterval(function() {
+          graph.series.addData(Math.floor((Math.random() * 100) + 1););
+          graph.render();
+      }, timeInterval);
+    </script>
   </body>
 </html>
