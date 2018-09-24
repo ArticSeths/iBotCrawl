@@ -50,7 +50,7 @@
       <!-- END SIDEBAR MENU TOP TRAY CONTENT-->
       <!-- BEGIN SIDEBAR MENU HEADER-->
       <div class="sidebar-header">
-        <img src="/wp-content/themes/ibotcrawl/assets/img/logo.png" alt="logo" class="brand" data-src="/wp-content/themes/ibotcrawl/assets/img/logo.png" data-src-retina="/wp-content/themes/ibotcrawl/assets/img/logo_2x.png" width="78" height="22">
+        <img src="/wp-content/themes/ibotcrawl/assets/img/logo.png" alt="logo" class="brand" data-src="/wp-content/themes/ibotcrawl/assets/img/logo.png" data-src-retina="/wp-content/themes/ibotcrawl/assets/img/logo_2x.png">
       </div>
       <!-- END SIDEBAR MENU HEADER-->
       <!-- START SIDEBAR MENU -->
@@ -533,7 +533,8 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="card-description">
-                    <h3>page dashboard Version 3.0 now release with limitless layout possibilities</h3>
+                    <div id="rickshaw-realtime_y_axis" class=""></div>
+                    <div id="rickshaw-realtime" class="rickshaw-chart"></div>
                   </div>
                   <div class="card-footer clearfix">
                     <div class="pull-left">via <span class="text-complete">Pages</span>
