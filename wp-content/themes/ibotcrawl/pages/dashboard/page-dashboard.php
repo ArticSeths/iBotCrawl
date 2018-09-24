@@ -2267,7 +2267,7 @@
       // add some data every so often
       var i = 0;
       var iv = setInterval(function() {
-          graph.series.addData(Math.floor((Math.random() * 100) + 1););
+          graph.series.addData(Math.floor((Math.random() * 100) + 1));
           graph.render();
       }, timeInterval);
     </script>
