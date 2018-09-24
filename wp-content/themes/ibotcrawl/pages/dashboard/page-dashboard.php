@@ -2218,12 +2218,13 @@
     <script src="/wp-content/themes/ibotcrawl/assets/js/scripts.js" type="text/javascript"></script>
     <!-- END PAGE LEVEL JS -->
     <script>
-      var timeInterval = 2000;
+      var timeInterval = 100;
       // instantiate our graph!
       var graph = new Rickshaw.Graph({
         element: document.getElementById("rickshaw-realtime"),
         renderer: 'line',
         series: new Rickshaw.Series.FixedDuration([{ name: 'Failed', color: '#B1003E' }, { name: 'Total', color: '#006f68' }], undefined, {
+          timeInterval: timeInterval,
           maxDataPoints: 25,
         })
       });
