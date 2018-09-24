@@ -2265,11 +2265,11 @@
       } );
       // add some data every so often
       var i = 0;
-      var iv = setInterval(function() {
+      /*var iv = setInterval(function() {
         var json = "{\"Total\": " + Math.floor((Math.random() * 35) + 15) + ", \"Failed\": 0}";
           graph.series.addData(JSON.parse(json));
           graph.render();
-      }, timeInterval);
+      }, timeInterval);*/
     </script>
     <script>
       var socket = io.connect('https://www.ibotcrawl.com:4507/', { 'forceNew': false });
