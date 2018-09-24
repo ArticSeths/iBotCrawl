@@ -17,7 +17,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Pages - Admin Dashboard UI Kit - Dashboard</title>
+    <title>Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
     <link rel="apple-touch-icon" href="/wp-content/themes/ibotcrawl/pages/ico/60.png">
     <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/ibotcrawl/pages/ico/76.png">
@@ -346,7 +346,6 @@
             <img src="/wp-content/themes/ibotcrawl/assets/img/logo.png" alt="logo" data-src="/wp-content/themes/ibotcrawl/assets/img/logo.png" data-src-retina="/wp-content/themes/ibotcrawl/assets/img/logo_2x.png" width="78" height="22">
           </div>
           <a href="#" class="btn btn-link text-primary m-l-20 hidden-md-down">Add New Item</a>
-          <a href="#" class="search-link hidden-md-down" data-toggle="search"><i class="pg-search"></i>Type anywhere to <span class="bold">search</span></a>
         </div>
         <div class="d-flex align-items-center">
           <!-- START NOTIFICATION LIST -->

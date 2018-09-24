@@ -1,0 +1,13 @@
+.sidebar-header {
+    box-shadow: 0px 3px 1px #cccccc1f;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-header img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
