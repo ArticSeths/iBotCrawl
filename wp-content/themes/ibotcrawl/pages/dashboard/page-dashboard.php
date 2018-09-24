@@ -2224,7 +2224,7 @@
         renderer: 'line',
         series: new Rickshaw.Series.FixedDuration([{ name: 'Failed', color: '#B1003E' }, { name: 'Total', color: '#006f68' }], undefined, {
           timeInterval: timeInterval,
-          maxDataPoints: 100,
+          maxDataPoints: 25,
         })
       });
       graph.render();
@@ -2265,7 +2265,8 @@
       // add some data every so often
       var i = 0;
       var iv = setInterval(function() {
-          graph.series.addData(Math.floor((Math.random() * 100) + 1));
+        var json = "{\"Total\": " + Math.floor((Math.random() * 100) + 1) + ", \"Failed\": 0}";
+          graph.series.addData(JSON.parse(json));
           graph.render();
       }, timeInterval);
     </script>
