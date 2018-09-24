@@ -29,17 +29,17 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta content="" name="description" />
     <meta content="" name="author" />
-    <link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/plugins/switchery/css/switchery.min.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/plugins/nvd3/nv.d3.min.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="assets/plugins/rickshaw/rickshaw.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="assets/plugins/mapplic/css/mapplic.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/dashboard.widgets.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/switchery/css/switchery.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/nv.d3.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/rickshaw/rickshaw.min.css" rel="stylesheet" type="text/css" />
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="\wp-content\themes\ibotcrawl\assets/plugins/mapplic/css/mapplic.css" rel="stylesheet" type="text/css" />
+    <link href="\wp-content\themes\ibotcrawl\assets/css/dashboard.widgets.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="pages/css/pages-icons.css" rel="stylesheet" type="text/css">
     <link class="main-stylesheet" href="pages/css/themes/light.css" rel="stylesheet" type="text/css" />
   </head>
@@ -50,7 +50,7 @@
       <!-- END SIDEBAR MENU TOP TRAY CONTENT-->
       <!-- BEGIN SIDEBAR MENU HEADER-->
       <div class="sidebar-header">
-        <img src="assets/img/logo.png" alt="logo" class="brand" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
+        <img src="\wp-content\themes\ibotcrawl\assets/img/logo.png" alt="logo" class="brand" data-src="\wp-content\themes\ibotcrawl\assets/img/logo.png" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/logo_2x.png" width="78" height="22">
       </div>
       <!-- END SIDEBAR MENU HEADER-->
       <!-- START SIDEBAR MENU -->
@@ -343,7 +343,7 @@
         <!-- END MOBILE SIDEBAR TOGGLE -->
         <div class="">
           <div class="brand inline">
-            <img src="assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
+            <img src="\wp-content\themes\ibotcrawl\assets/img/logo.png" alt="logo" data-src="\wp-content\themes\ibotcrawl\assets/img/logo.png" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/logo_2x.png" width="78" height="22">
           </div>
           <a href="#" class="btn btn-link text-primary m-l-20 hidden-md-down">Add New Item</a>
           <a href="#" class="search-link hidden-md-down" data-toggle="search"><i class="pg-search"></i>Type anywhere to <span class="bold">search</span></a>
@@ -436,7 +436,7 @@
                       <div class="notification-item unread clearfix">
                         <div class="heading">
                           <div class="thumbnail-wrapper d24 circular b-white m-r-5 b-a b-white m-t-10 m-r-10">
-                            <img width="30" height="30" data-src-retina="assets/img/profiles/1x.jpg" data-src="assets/img/profiles/1.jpg" alt="" src="assets/img/profiles/1.jpg">
+                            <img width="30" height="30" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/1.jpg" alt="" src="\wp-content\themes\ibotcrawl\assets/img/profiles/1.jpg">
                           </div>
                           <a href="#" class="text-primary pull-left">
                             <span class="bold">Revox Design Labs</span>
@@ -482,7 +482,7 @@
           <div class="dropdown pull-right hidden-md-down">
             <button class="profile-dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="thumbnail-wrapper d32 circular inline">
-              <img src="assets/img/profiles/avatar.jpg" alt="" data-src="assets/img/profiles/avatar.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg" width="32" height="32">
+              <img src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar.jpg" alt="" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar.jpg" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small2x.jpg" width="32" height="32">
               </span>
             </button>
             <div class="dropdown-menu dropdown-menu-right profile-dropdown" role="menu">
@@ -659,7 +659,7 @@
                 <div class="card social-card share share-other full-width m-b-10 d-flex flex-1 full-height no-border sm-vh-75" data-social="item">
                   <div class="circle" data-toggle="tooltip" title="Label" data-container="body">
                   </div>
-                  <div class="card-content flex-1" data-pages-bg-image="assets/img/social_new.jpg">
+                  <div class="card-content flex-1" data-pages-bg-image="\wp-content\themes\ibotcrawl\assets/img/social_new.jpg">
                     <ul class="buttons ">
                       <li>
                         <a href="#"><i class="fa fa-expand"></i>
@@ -685,7 +685,7 @@
                   </div>
                   <div class="card-header clearfix">
                     <div class="user-pic">
-                      <img alt="Avatar" width="33" height="33" data-src-retina="assets/img/profiles/avatar_small2x.jpg" data-src="assets/img/profiles/avatar.jpg" src="assets/img/profiles/avatar_small2x.jpg">
+                      <img alt="Avatar" width="33" height="33" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small2x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small2x.jpg">
                     </div>
                     <h5>David Nester</h5>
                     <h6>Shared a link on your wall</h6>
@@ -1444,7 +1444,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/1x.jpg" data-src="assets/img/profiles/1.jpg" src="assets/img/profiles/1x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/1.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">ava flores</span>
@@ -1462,7 +1462,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/2x.jpg" data-src="assets/img/profiles/2.jpg" src="assets/img/profiles/2x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/2.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">bella mccoy</span>
@@ -1475,7 +1475,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/3x.jpg" data-src="assets/img/profiles/3.jpg" src="assets/img/profiles/3x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/3.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">bob stephens</span>
@@ -1493,7 +1493,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/4x.jpg" data-src="assets/img/profiles/4.jpg" src="assets/img/profiles/4x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/4.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">carole roberts</span>
@@ -1506,7 +1506,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/5x.jpg" data-src="assets/img/profiles/5.jpg" src="assets/img/profiles/5x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/5x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/5.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/5x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">christopher perez</span>
@@ -1524,7 +1524,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/6x.jpg" data-src="assets/img/profiles/6.jpg" src="assets/img/profiles/6x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/6x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/6.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/6x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">danielle fletcher</span>
@@ -1537,7 +1537,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/7x.jpg" data-src="assets/img/profiles/7.jpg" src="assets/img/profiles/7x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/7x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/7.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/7x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">david sutton</span>
@@ -1555,7 +1555,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/8x.jpg" data-src="assets/img/profiles/8.jpg" src="assets/img/profiles/8x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/8x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/8.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/8x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">earl hamilton</span>
@@ -1568,7 +1568,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/9x.jpg" data-src="assets/img/profiles/9.jpg" src="assets/img/profiles/9x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/9x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/9.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/9x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">elaine lawrence</span>
@@ -1581,7 +1581,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/1x.jpg" data-src="assets/img/profiles/1.jpg" src="assets/img/profiles/1x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/1.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">ellen grant</span>
@@ -1594,7 +1594,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/2x.jpg" data-src="assets/img/profiles/2.jpg" src="assets/img/profiles/2x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/2.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">erik taylor</span>
@@ -1607,7 +1607,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/3x.jpg" data-src="assets/img/profiles/3.jpg" src="assets/img/profiles/3x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/3.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">everett wagner</span>
@@ -1625,7 +1625,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/4x.jpg" data-src="assets/img/profiles/4.jpg" src="assets/img/profiles/4x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/4.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">freddie gomez</span>
@@ -1643,7 +1643,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/5x.jpg" data-src="assets/img/profiles/5.jpg" src="assets/img/profiles/5x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/5x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/5.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/5x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">glen jensen</span>
@@ -1656,7 +1656,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/6x.jpg" data-src="assets/img/profiles/6.jpg" src="assets/img/profiles/6x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/6x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/6.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/6x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">gwendolyn walker</span>
@@ -1674,7 +1674,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/7x.jpg" data-src="assets/img/profiles/7.jpg" src="assets/img/profiles/7x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/7x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/7.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/7x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">janet romero</span>
@@ -1692,7 +1692,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/8x.jpg" data-src="assets/img/profiles/8.jpg" src="assets/img/profiles/8x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/8x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/8.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/8x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">kim martinez</span>
@@ -1710,7 +1710,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/9x.jpg" data-src="assets/img/profiles/9.jpg" src="assets/img/profiles/9x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/9x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/9.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/9x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">lawrence white</span>
@@ -1723,7 +1723,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/1x.jpg" data-src="assets/img/profiles/1.jpg" src="assets/img/profiles/1x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/1.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">leroy bell</span>
@@ -1736,7 +1736,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/2x.jpg" data-src="assets/img/profiles/2.jpg" src="assets/img/profiles/2x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/2.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">letitia carr</span>
@@ -1749,7 +1749,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/3x.jpg" data-src="assets/img/profiles/3.jpg" src="assets/img/profiles/3x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/3.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">lucy castro</span>
@@ -1767,7 +1767,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/4x.jpg" data-src="assets/img/profiles/4.jpg" src="assets/img/profiles/4x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/4.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">mae hayes</span>
@@ -1780,7 +1780,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/5x.jpg" data-src="assets/img/profiles/5.jpg" src="assets/img/profiles/5x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/5x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/5.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/5x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">marilyn owens</span>
@@ -1793,7 +1793,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/6x.jpg" data-src="assets/img/profiles/6.jpg" src="assets/img/profiles/6x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/6x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/6.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/6x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">marlene cole</span>
@@ -1806,7 +1806,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/7x.jpg" data-src="assets/img/profiles/7.jpg" src="assets/img/profiles/7x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/7x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/7.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/7x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">marsha warren</span>
@@ -1819,7 +1819,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/8x.jpg" data-src="assets/img/profiles/8.jpg" src="assets/img/profiles/8x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/8x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/8.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/8x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">marsha dean</span>
@@ -1832,7 +1832,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/9x.jpg" data-src="assets/img/profiles/9.jpg" src="assets/img/profiles/9x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/9x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/9.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/9x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">mia diaz</span>
@@ -1851,7 +1851,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/1x.jpg" data-src="assets/img/profiles/1.jpg" src="assets/img/profiles/1x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/1.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">noah elliott</span>
@@ -1869,7 +1869,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/2x.jpg" data-src="assets/img/profiles/2.jpg" src="assets/img/profiles/2x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/2.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">phyllis hamilton</span>
@@ -1887,7 +1887,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/3x.jpg" data-src="assets/img/profiles/3.jpg" src="assets/img/profiles/3x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/3.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">raul rodriquez</span>
@@ -1900,7 +1900,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/4x.jpg" data-src="assets/img/profiles/4.jpg" src="assets/img/profiles/4x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/4.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">rhonda barnett</span>
@@ -1913,7 +1913,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/5x.jpg" data-src="assets/img/profiles/5.jpg" src="assets/img/profiles/5x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/5x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/5.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/5x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">roberta king</span>
@@ -1931,7 +1931,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/6x.jpg" data-src="assets/img/profiles/6.jpg" src="assets/img/profiles/6x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/6x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/6.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/6x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">scott armstrong</span>
@@ -1944,7 +1944,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/7x.jpg" data-src="assets/img/profiles/7.jpg" src="assets/img/profiles/7x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/7x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/7.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/7x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">sebastian austin</span>
@@ -1957,7 +1957,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/8x.jpg" data-src="assets/img/profiles/8.jpg" src="assets/img/profiles/8x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/8x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/8.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/8x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">sofia davis</span>
@@ -1975,7 +1975,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/9x.jpg" data-src="assets/img/profiles/9.jpg" src="assets/img/profiles/9x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/9x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/9.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/9x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">terrance young</span>
@@ -1988,7 +1988,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/1x.jpg" data-src="assets/img/profiles/1.jpg" src="assets/img/profiles/1x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/1.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/1x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">theodore woods</span>
@@ -2001,7 +2001,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/2x.jpg" data-src="assets/img/profiles/2.jpg" src="assets/img/profiles/2x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/2.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/2x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">todd wood</span>
@@ -2014,7 +2014,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/3x.jpg" data-src="assets/img/profiles/3.jpg" src="assets/img/profiles/3x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/3.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/3x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">tommy jenkins</span>
@@ -2032,7 +2032,7 @@
                     <li class="chat-user-list clearfix">
                       <a data-view-animation="push-parrallax" data-view-port="#chat" data-navigate="view" class="" href="#">
                         <span class="thumbnail-wrapper d32 circular bg-success">
-                            <img width="34" height="34" alt="" data-src-retina="assets/img/profiles/4x.jpg" data-src="assets/img/profiles/4.jpg" src="assets/img/profiles/4x.jpg" class="col-top">
+                            <img width="34" height="34" alt="" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/4.jpg" src="\wp-content\themes\ibotcrawl\assets/img/profiles/4x.jpg" class="col-top">
                         </span>
                         <p class="p-l-10 ">
                           <span class="text-master">wilma hicks</span>
@@ -2075,7 +2075,7 @@
                 <!-- BEGIN From Them Message  !-->
                 <div class="message clearfix">
                   <div class="profile-img-wrapper m-t-5 inline">
-                    <img class="col-top" width="30" height="30" src="assets/img/profiles/avatar_small.jpg" alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg">
+                    <img class="col-top" width="30" height="30" src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small.jpg" alt="" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small.jpg" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small2x.jpg">
                   </div>
                   <div class="chat-bubble from-them">
                     Hey
@@ -2099,7 +2099,7 @@
                 <!-- BEGIN From Them Message  !-->
                 <div class="message clearfix">
                   <div class="profile-img-wrapper m-t-5 inline">
-                    <img class="col-top" width="30" height="30" src="assets/img/profiles/avatar_small.jpg" alt="" data-src="assets/img/profiles/avatar_small.jpg" data-src-retina="assets/img/profiles/avatar_small2x.jpg">
+                    <img class="col-top" width="30" height="30" src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small.jpg" alt="" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small.jpg" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar_small2x.jpg">
                   </div>
                   <div class="chat-bubble from-them">
                     Yea
@@ -2137,7 +2137,7 @@
         <!-- BEGIN Overlay Header !-->
         <div class="container-fluid">
           <!-- BEGIN Overlay Logo !-->
-          <img class="overlay-brand" src="assets/img/logo.png" alt="logo" data-src="assets/img/logo.png" data-src-retina="assets/img/logo_2x.png" width="78" height="22">
+          <img class="overlay-brand" src="\wp-content\themes\ibotcrawl\assets/img/logo.png" alt="logo" data-src="\wp-content\themes\ibotcrawl\assets/img/logo.png" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/logo_2x.png" width="78" height="22">
           <!-- END Overlay Logo !-->
           <!-- BEGIN Overlay Close !-->
           <a href="#" class="close-icon-light overlay-close text-black fs-16">
@@ -2177,7 +2177,7 @@
                   <!-- BEGIN Search Result Item Thumbnail !-->
                   <div class="thumbnail-wrapper d48 circular bg-success text-white inline m-t-10">
                     <div>
-                      <img width="50" height="50" src="assets/img/profiles/avatar.jpg" data-src="assets/img/profiles/avatar.jpg" data-src-retina="assets/img/profiles/avatar2x.jpg" alt="">
+                      <img width="50" height="50" src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar.jpg" data-src="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar.jpg" data-src-retina="\wp-content\themes\ibotcrawl\assets/img/profiles/avatar2x.jpg" alt="">
                     </div>
                   </div>
                   <!-- END Search Result Item Thumbnail !-->
@@ -2268,41 +2268,41 @@
     </div>
     <!-- END OVERLAY -->
     <!-- BEGIN VENDOR JS -->
-    <script src="assets/plugins/feather-icons/feather.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/modernizr.custom.js" type="text/javascript"></script>
-    <script src="assets/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/tether/js/tether.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/jquery/jquery-easy.js" type="text/javascript"></script>
-    <script src="assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/jquery-ios-list/jquery.ioslist.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/jquery-actual/jquery.actual.min.js"></script>
-    <script src="assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/select2/js/select2.full.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/classie/classie.js"></script>
-    <script src="assets/plugins/switchery/js/switchery.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/nvd3/lib/d3.v3.js" type="text/javascript"></script>
-    <script src="assets/plugins/nvd3/nv.d3.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/nvd3/src/utils.js" type="text/javascript"></script>
-    <script src="assets/plugins/nvd3/src/tooltip.js" type="text/javascript"></script>
-    <script src="assets/plugins/nvd3/src/interactiveLayer.js" type="text/javascript"></script>
-    <script src="assets/plugins/nvd3/src/models/axis.js" type="text/javascript"></script>
-    <script src="assets/plugins/nvd3/src/models/line.js" type="text/javascript"></script>
-    <script src="assets/plugins/nvd3/src/models/lineWithFocusChart.js" type="text/javascript"></script>
-    <script src="assets/plugins/rickshaw/rickshaw.min.js"></script>
-    <script src="assets/plugins/mapplic/js/hammer.js"></script>
-    <script src="assets/plugins/mapplic/js/jquery.mousewheel.js"></script>
-    <script src="assets/plugins/mapplic/js/mapplic.js"></script>
-    <script src="assets/js/dashboard.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/feather-icons/feather.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/modernizr.custom.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/tether/js/tether.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/jquery/jquery-easy.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/jquery-ios-list/jquery.ioslist.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/jquery-actual/jquery.actual.min.js"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script type="text/javascript" src="\wp-content\themes\ibotcrawl\assets/plugins/select2/js/select2.full.min.js"></script>
+    <script type="text/javascript" src="\wp-content\themes\ibotcrawl\assets/plugins/classie/classie.js"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/switchery/js/switchery.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/lib/d3.v3.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/nv.d3.min.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/src/utils.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/src/tooltip.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/src/interactiveLayer.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/src/models/axis.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/src/models/line.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/nvd3/src/models/lineWithFocusChart.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/rickshaw/rickshaw.min.js"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/mapplic/js/hammer.js"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/mapplic/js/jquery.mousewheel.js"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/plugins/mapplic/js/mapplic.js"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/js/dashboard.js" type="text/javascript"></script>
     <!-- END VENDOR JS -->
     <!-- BEGIN CORE TEMPLATE JS -->
     <script src="pages/js/pages.min.js"></script>
     <!-- END CORE TEMPLATE JS -->
     <!-- BEGIN PAGE LEVEL JS -->
-    <script src="assets/js/dashboard.js" type="text/javascript"></script>
-    <script src="assets/js/scripts.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/js/dashboard.js" type="text/javascript"></script>
+    <script src="\wp-content\themes\ibotcrawl\assets/js/scripts.js" type="text/javascript"></script>
     <!-- END PAGE LEVEL JS -->
   </body>
 </html>
