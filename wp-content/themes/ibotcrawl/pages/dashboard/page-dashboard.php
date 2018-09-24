@@ -2208,6 +2208,7 @@
     <script src="/wp-content/themes/ibotcrawl/assets/plugins/mapplic/js/jquery.mousewheel.js"></script>
     <script src="/wp-content/themes/ibotcrawl/assets/plugins/mapplic/js/mapplic.js"></script>
     <script src="/wp-content/themes/ibotcrawl/assets/js/dashboard.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
     <!-- END VENDOR JS -->
     <!-- BEGIN CORE TEMPLATE JS -->
     <script src="/wp-content/themes/ibotcrawl/pages/js/pages.min.js"></script>
@@ -2270,5 +2271,15 @@
           graph.render();
       }, timeInterval);
     </script>
+    <script>
+      var socket = io.connect('https://www.ibotcrawl.com:4507/', { 'forceNew': false });
+      
+      socket.on('webUpdate', function (data) {
+        console.log(data);
+        var json = "{\"Total\": " + data + ", \"Failed\": 0}";
+        graph.series.addData(JSON.parse(json));
+        graph.render();
+      });
+  </script>
   </body>
 </html>
