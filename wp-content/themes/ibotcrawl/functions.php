@@ -69,7 +69,7 @@ function printS($string = "") {
 }
 
 function def_redirect_login() {
-  return '/';
+  return '/dashboard';
 }
 add_filter('login_redirect', 'def_redirect_login');
 
