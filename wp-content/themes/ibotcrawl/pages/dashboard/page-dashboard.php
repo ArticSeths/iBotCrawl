@@ -2224,7 +2224,6 @@
         element: document.getElementById("rickshaw-realtime"),
         renderer: 'line',
         series: new Rickshaw.Series.FixedDuration([{ name: 'Failed', color: '#B1003E' }, { name: 'Total', color: '#006f68' }], undefined, {
-          timeInterval: timeInterval,
           maxDataPoints: 25,
         })
       });
