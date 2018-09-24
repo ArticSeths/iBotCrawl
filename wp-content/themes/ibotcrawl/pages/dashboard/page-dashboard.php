@@ -2265,7 +2265,7 @@
       // add some data every so often
       var i = 0;
       var iv = setInterval(function() {
-        var json = "{\"Total\": " + Math.floor((Math.random() * 100) + 1) + ", \"Failed\": 0}";
+        var json = "{\"Total\": " + Math.floor((Math.random() * 35) + 15) + ", \"Failed\": 0}";
           graph.series.addData(JSON.parse(json));
           graph.render();
       }, timeInterval);
