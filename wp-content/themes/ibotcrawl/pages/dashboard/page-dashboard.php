@@ -97,7 +97,7 @@
                 <span class="icon-thumbnail">La</span>
               </li>
               <li class="">
-                <a href="http://pages.revox.io/dashboard/2.1.0/doc/#calendar" target="_blank">Documentation</a>
+                <a href="https://pages.revox.io/dashboard/2.1.0/doc/#calendar" target="_blank">Documentation</a>
                 <span class="icon-thumbnail">D</span>
               </li>
             </ul>
@@ -319,11 +319,11 @@
             </ul>
           </li>
           <li class="">
-            <a href="http://pages.revox.io/dashboard/2.2.0/docs/" target="_blank"><span class="title">Docs</span></a>
+            <a href="https://pages.revox.io/dashboard/2.2.0/docs/" target="_blank"><span class="title">Docs</span></a>
             <span class="icon-thumbnail"><i data-feather="life-buoy"></i></span>
           </li>
           <li class="">
-            <a href="http://changelog.pages.revox.io/" target="_blank"><span class="title">Changelog</span></a>
+            <a href="https://changelog.pages.revox.io/" target="_blank"><span class="title">Changelog</span></a>
             <span class="icon-thumbnail">CG</span>
           </li>
         </ul>
@@ -578,7 +578,7 @@
                     <div class="row-xs-height">
                       <div class="col-xs-height col-bottom">
                         <div class="progress progress-small m-b-0">
-                          <!-- START BOOTSTRAP PROGRESS (http://getbootstrap.com/components/#progress) -->
+                          <!-- START BOOTSTRAP PROGRESS (https://getbootstrap.com/components/#progress) -->
                           <div class="progress-bar progress-bar-primary" style="width:71%"></div>
                           <!-- END BOOTSTRAP PROGRESS -->
                         </div>
@@ -618,7 +618,7 @@
                     <div class="row-xs-height">
                       <div class="col-xs-height col-bottom">
                         <div class="progress progress-small m-b-0">
-                          <!-- START BOOTSTRAP PROGRESS (http://getbootstrap.com/components/#progress) -->
+                          <!-- START BOOTSTRAP PROGRESS (https://getbootstrap.com/components/#progress) -->
                           <div class="progress-bar progress-bar-danger" style="width:15%"></div>
                           <!-- END BOOTSTRAP PROGRESS -->
                         </div>
@@ -897,7 +897,7 @@
                             <div class="clearfix"></div>
                           </div>
                           <div class="progress progress-small m-b-15 m-t-10">
-                            <!-- START BOOTSTRAP PROGRESS (http://getbootstrap.com/components/#progress) -->
+                            <!-- START BOOTSTRAP PROGRESS (https://getbootstrap.com/components/#progress) -->
                             <div class="progress-bar progress-bar-info" style="width:71%"></div>
                             <!-- END BOOTSTRAP PROGRESS -->
                           </div>
@@ -917,7 +917,7 @@
                             <div class="clearfix"></div>
                           </div>
                           <div class="progress progress-small m-b-15 m-t-10">
-                            <!-- START BOOTSTRAP PROGRESS (http://getbootstrap.com/components/#progress) -->
+                            <!-- START BOOTSTRAP PROGRESS (https://getbootstrap.com/components/#progress) -->
                             <div class="progress-bar progress-bar-warning" style="width:20%"></div>
                             <!-- END BOOTSTRAP PROGRESS -->
                           </div>
@@ -941,7 +941,7 @@
                             <div class="clearfix"></div>
                           </div>
                           <div class="progress progress-small m-b-15 m-t-10">
-                            <!-- START BOOTSTRAP PROGRESS (http://getbootstrap.com/components/#progress) -->
+                            <!-- START BOOTSTRAP PROGRESS (https://getbootstrap.com/components/#progress) -->
                             <div class="progress-bar progress-bar-info" style="width:45%"></div>
                             <!-- END BOOTSTRAP PROGRESS -->
                           </div>
@@ -962,7 +962,7 @@
                             <div class="clearfix"></div>
                           </div>
                           <div class="progress progress-small m-b-15 m-t-10">
-                            <!-- START BOOTSTRAP PROGRESS (http://getbootstrap.com/components/#progress) -->
+                            <!-- START BOOTSTRAP PROGRESS (https://getbootstrap.com/components/#progress) -->
                             <div class="progress-bar progress-bar-warning" style="width:20%"></div>
                             <!-- END BOOTSTRAP PROGRESS -->
                           </div>
