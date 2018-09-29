@@ -8,9 +8,21 @@
 		$templateDir = get_template_directory_uri();
 		wp_register_script('js-dashboard', $templateDir . '/pages/dashboard/js-dashboard.js'); wp_enqueue_script('js-dashboard');
 		wp_register_style('css-dashboard', $templateDir . '/pages/dashboard/css-dashboard.css'); wp_enqueue_style('css-dashboard');
-		}
+    }
+  
+  function cdl_rewrite_rule(){
+      add_rewrite_rule(
+          'dashboard/([^/]*)?$',
+          'index.php?pagename=dashboard&pc-name=$matches[1]',
+          'top'
+      );
+  }
+  add_action( 'init', 'cdl_rewrite_rule' );
 
-	get_header();
+  get_header();
+  if(isset($_GET['pc-name'])){
+    echo $_GET['pc-name'];
+  }
 ?>
       <!-- START PAGE CONTENT WRAPPER -->
       <div class="page-content-wrapper ">
