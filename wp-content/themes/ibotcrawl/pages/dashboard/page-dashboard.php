@@ -13,12 +13,7 @@
 
 
   get_header();
-  $food = $wp_query->get( 'pc-name' );
-  if( isset($food) && !empty($food) ) {
-      $nutrition = $food;
-  }else{
-      $nutrition = 'strawberry'; //default value
-  }
+
   
 ?>
       <!-- START PAGE CONTENT WRAPPER -->
@@ -229,7 +224,16 @@
                   </div>
                   <div class="padding-25">
                     <div class="pull-left">
-                      <h2 class="text-success no-margin">webarch</h2>
+                      <h2 class="text-success no-margin">
+                      <?php
+                          $pc = $wp_query->get( 'pc-name' );
+                          if( isset($pc) && !empty($pc) ) {
+                              echo $pc;
+                          }else{
+                              echo 'strawberry'; //default value
+                          }
+                      ?>
+                      </h2>
                       <p class="no-margin">Today's sales</p>
                     </div>
                     <h3 class="pull-right semi-bold"><sup>
