@@ -120,9 +120,16 @@ function logout_redirect() {
 }
 add_action('wp_logout','logout_redirect');
 
+function custom_rewrite_tag() {
+    add_rewrite_tag('%dashboard%', '([^&]+)');
+}
+add_action('init', 'custom_rewrite_tag', 10, 0);
+
 
 function custom_rewrite_rule() {
-    add_rewrite_rule('^dashboard/?([^/]*)/?','index.php?page_id=17&pc-name=$matches[1]','top');
+    add_rewrite_rule('^dashboard/([^/]*)/?','index.php?page_id=17&pc-name=$matches[1]','top');
+    flush_rewrite_rules();
 }
 add_action('init', 'custom_rewrite_rule', 10, 0);
+
 ?>
