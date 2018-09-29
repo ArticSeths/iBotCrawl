@@ -13,6 +13,7 @@
 
 
   get_header();
+  error_log('entra dashboard');
   $food = $wp_query->get( 'pc-name' );
   if( isset($food) && !empty($food) ) {
       $nutrition = $food;
