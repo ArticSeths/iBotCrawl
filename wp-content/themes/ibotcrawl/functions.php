@@ -132,4 +132,16 @@ function custom_rewrite_rule() {
 }
 add_action('init', 'custom_rewrite_rule', 10, 0);
 
+
+function errorlog_rewrite_tag() {
+    add_rewrite_tag('%errorlog%', '([^&]+)');
+}
+add_action('init', 'errorlog_rewrite_tag', 10, 0);
+
+
+function errorlog_rewrite_rule() {
+    add_rewrite_rule('^errorlog/?','errorlogs.php','top');
+    flush_rewrite_rules();
+}
+add_action('init', 'errorlog_rewrite_rule', 10, 0);
 ?>
