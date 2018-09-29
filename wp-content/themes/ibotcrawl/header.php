@@ -41,9 +41,9 @@
         <!-- END MOBILE SIDEBAR TOGGLE -->
         <div class="">
           <div class="brand inline">
-            <img src="/wp-content/themes/ibotcrawl/assets/img/logo.png" alt="logo" data-src="/wp-content/themes/ibotcrawl/assets/img/logo.png" data-src-retina="/wp-content/themes/ibotcrawl/assets/img/logo_2x.png" width="78" height="22">
+            <img src="/wp-content/themes/ibotcrawl/assets/img/logo.png" alt="logo">
           </div>
-          <a href="#" class="btn btn-link text-primary m-l-20 hidden-md-down">Add New Item</a>
+          <a href="#" class="btn btn-link text-primary m-l-20 hidden-md-down">Añadir nuevo equipo</a>
         </div>
         <div class="d-flex align-items-center">
           <!-- START NOTIFICATION LIST -->
