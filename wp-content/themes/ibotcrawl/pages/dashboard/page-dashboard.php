@@ -10,14 +10,7 @@
 		wp_register_style('css-dashboard', $templateDir . '/pages/dashboard/css-dashboard.css'); wp_enqueue_style('css-dashboard');
     }
   
-  function cdl_rewrite_rule(){
-      add_rewrite_rule(
-          'dashboard/([^/]*)?$',
-          'index.php?pagename=dashboard&pc-name=$matches[1]',
-          'top'
-      );
-  }
-  add_action( 'init', 'cdl_rewrite_rule' );
+
 
   get_header();
   if(isset($_GET['pc-name'])){

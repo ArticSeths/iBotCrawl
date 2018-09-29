@@ -123,7 +123,7 @@ add_action('wp_logout','logout_redirect');
 
 function cdl_rewrite_rule(){
     add_rewrite_rule(
-        'dashboard/([^/]*)?$',
+        'equipo/([^/]*)?$',
         'index.php?pagename=dashboard&pc-name=$matches[1]',
         'top'
     );
