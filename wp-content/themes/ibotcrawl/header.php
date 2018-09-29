@@ -4,10 +4,10 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
-    <link rel="apple-touch-icon" href="/wp-content/themes/ibotcrawl/pages/ico/60.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/ibotcrawl/pages/ico/76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/ibotcrawl/pages/ico/120.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/ibotcrawl/pages/ico/152.png">
+    <link rel="apple-touch-icon" href="/wp-content/themes/ibotcrawl/assets/ico/60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/ibotcrawl/assets/ico/76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/ibotcrawl/assets/ico/120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/ibotcrawl/assets/ico/152.png">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
@@ -25,8 +25,8 @@
     <link href="/wp-content/themes/ibotcrawl/assets/plugins/bootstrap-datepicker/css/datepicker3.css" rel="stylesheet" type="text/css" media="screen">
     <link href="/wp-content/themes/ibotcrawl/assets/plugins/mapplic/css/mapplic.css" rel="stylesheet" type="text/css" />
     <link href="/wp-content/themes/ibotcrawl/assets/css/dashboard.widgets.css" rel="stylesheet" type="text/css" media="screen" />
-    <link href="/wp-content/themes/ibotcrawl/pages/css/pages-icons.css" rel="stylesheet" type="text/css">
-    <link class="main-stylesheet" href="/wp-content/themes/ibotcrawl/pages/css/themes/light.css" rel="stylesheet" type="text/css" />
+    <link href="/wp-content/themes/ibotcrawl/assets/css/pages-icons.css" rel="stylesheet" type="text/css">
+    <link class="main-stylesheet" href="/wp-content/themes/ibotcrawl/assets/css/themes/light.css" rel="stylesheet" type="text/css" />
     <?php wp_head(); ?>
   </head>
   <body class="fixed-header dashboard menu-pin">

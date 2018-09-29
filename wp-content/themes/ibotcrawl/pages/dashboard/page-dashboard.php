@@ -1729,7 +1729,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
     <!-- END VENDOR JS -->
     <!-- BEGIN CORE TEMPLATE JS -->
-    <script src="/wp-content/themes/ibotcrawl/pages/js/pages.min.js"></script>
+    <script src="/wp-content/themes/ibotcrawl/assets/js/pages.min.js"></script>
     <!-- END CORE TEMPLATE JS -->
     <!-- BEGIN PAGE LEVEL JS -->
     <script src="/wp-content/themes/ibotcrawl/assets/js/dashboard.js" type="text/javascript"></script>
