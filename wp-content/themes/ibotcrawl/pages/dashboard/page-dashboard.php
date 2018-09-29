@@ -226,8 +226,8 @@
                     <div class="pull-left">
                       <h2 class="text-success no-margin">
                       <?php
-                          $pc = get_query_var( 'pc-name');
-                          error_log(printf(get_query_var( 'pc-name')));
+                          $pc = get_query_var( 'pc_name');
+                          error_log(printf(get_query_var( 'pc_name')));
                           if( isset($pc) && !empty($pc) ) {
                               echo $pc;
                           }else{
