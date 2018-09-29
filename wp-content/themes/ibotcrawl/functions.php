@@ -121,12 +121,8 @@ function logout_redirect() {
 add_action('wp_logout','logout_redirect');
 
 
-function cdl_rewrite_rule(){
-    add_rewrite_rule(
-        'equipo/([^/]*)?$',
-        'index.php?pagename=dashboard&pc-name=$matches[1]',
-        'top'
-    );
+function custom_rewrite_rule() {
+    add_rewrite_rule('^equipos/?([^/]*)/?','index.php?page_id=17&pc-name=$matches[1]','top');
 }
-add_action( 'init', 'cdl_rewrite_rule' );
+add_action('init', 'custom_rewrite_rule', 10, 0);
 ?>
