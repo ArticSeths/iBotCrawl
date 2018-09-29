@@ -227,7 +227,7 @@
                       <h2 class="text-success no-margin">
                       <?php
                           $pc = $wp_query->query_vars['pc-name'];
-                          error_log($wp_query->query_vars);
+                          error_log(print_r($wp_query->query_vars));
                           if( isset($pc) && !empty($pc) ) {
                               echo $pc;
                           }else{
