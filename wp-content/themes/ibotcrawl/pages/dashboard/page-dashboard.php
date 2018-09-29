@@ -226,8 +226,8 @@
                     <div class="pull-left">
                       <h2 class="text-success no-margin">
                       <?php
-                          $pc = $wp_query->query_vars['pc-name'];
-                          error_log(print_r($wp_query->query_vars));
+                          $pc = get_query_var( 'pc-name');
+                          error_log(printf(get_query_var( 'pc-name')));
                           if( isset($pc) && !empty($pc) ) {
                               echo $pc;
                           }else{
