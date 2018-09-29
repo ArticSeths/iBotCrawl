@@ -13,9 +13,13 @@
 
 
   get_header();
-  if(isset($_GET['pc-name'])){
-    echo $_GET['pc-name'];
+  $food = $wp_query->get( 'pc-name' );
+  if( isset($food) && !empty($food) ) {
+      $nutrition = $food;
+  }else{
+      $nutrition = 'strawberry'; //default value
   }
+  
 ?>
       <!-- START PAGE CONTENT WRAPPER -->
       <div class="page-content-wrapper ">
