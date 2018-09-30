@@ -131,4 +131,11 @@ function custom_rewrite_rule() {
     flush_rewrite_rules();
 }
 add_action('init', 'custom_rewrite_rule', 10, 0);
+
+
+function cdl_query_vars( $query_vars ){
+    $query_vars[] = 'pc_name';
+    return $query_vars;
+}
+add_filter( 'query_vars', 'cdl_query_vars' );
 ?>
