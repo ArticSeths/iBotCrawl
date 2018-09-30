@@ -42,8 +42,7 @@
                 <!-- START ITEM -->
                 <div class="card social-card share  full-width m-b-10 no-border" data-social="item">
                   <div class="card-header ">
-                    <h5 class="text-primary pull-left fs-12">Update <i
-									class="fa fa-circle text-complete fs-11"></i></h5>
+                    <h5 class="text-primary pull-left fs-12">Update <i class="fa fa-circle text-complete fs-11"></i></h5>
                     <div class="pull-right small hint-text">
                       5,345 <i class="fa fa-comment-o"></i>
                     </div>
@@ -149,8 +148,7 @@
                 <!-- START ITEM -->
                 <div class="card social-card share  full-width m-b-10 no-border" data-social="item">
                   <div class="card-header clearfix">
-                    <h5 class="text-success pull-left fs-12">Stock Market <i
-									class="fa fa-circle text-success fs-11"></i></h5>
+                    <h5 class="text-success pull-left fs-12">Stock Market <i class="fa fa-circle text-success fs-11"></i></h5>
                     <div class="pull-right small hint-text">
                       5,345 <i class="fa fa-comment-o"></i>
                     </div>

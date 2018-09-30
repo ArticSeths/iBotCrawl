@@ -4,7 +4,8 @@
     margin-bottom: 10px;
 }
 
-.sidebar-header img {
+.sidebar-header img,
+.brand.inline img {
     width: auto;
     height: 100%;
     margin: 0 auto;
