@@ -4,11 +4,15 @@
     margin-bottom: 10px;
 }
 
-.sidebar-header img,
-.brand.inline img {
+.sidebar-header img {
     width: auto;
     height: 100%;
     margin: 0 auto;
     display: block;
     margin-top: 10px;
+}
+
+
+.brand.inline img{
+    width: 18%;
 }
