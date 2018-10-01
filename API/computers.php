@@ -9,10 +9,19 @@ $user_id = get_current_user_id();
 $user = get_userdata( $user_id );
 $user_roles = $user_meta->roles;
 
-if ( !in_array( 'subscriber', $user_roles, true ) ) {
-    echo 'no tienes permiso para acceder a esta pantalla';
+$roles_permitidos = array('subscriber', 'administrator');
+$flag_permitido = false;
+foreach($roles_permitidos as $role){
+    if ( in_array( $role, $user_roles, true ) ) {
+        $flag_permitido = true;
+    }
+}
+
+if(!$flag_permitido){
+    echo 'no tienes acceso a esta pantalla';
     exit;
 }
+
 // -------------------------------------------
 
 //Comenzamos API computers
