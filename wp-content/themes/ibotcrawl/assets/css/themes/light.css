@@ -437,6 +437,7 @@ body.menu-pin .overlay .overlay-brand {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  width:100%;
 }
 .page-sidebar .sidebar-menu .menu-items > li {
   display: block;
@@ -453,6 +454,7 @@ body.menu-pin .overlay .overlay-brand {
   font-family: Arial, sans-serif;
   display: inline-block;
   padding-left: 32px;
+  padding-right: 32px;
   min-height: 40px;
   line-height: 40px;
   font-size: 14px;

@@ -15,14 +15,12 @@
             <a href="/dashboard">
               <span class="title">Panel de control</span>
             </a>
-            <span class="icon-thumbnail"><i data-feather="shield"></i></span>
           </li>
           <li class="">
             <a href="/equipos" class="detailed">
               <span class="title">Mis equipos</span>
               <span class="details">4/8 Equipos conectados</span>
             </a>
-            <span class="icon-thumbnail"><i data-feather="mail"></i></span>
           </li>
           
         </ul>
