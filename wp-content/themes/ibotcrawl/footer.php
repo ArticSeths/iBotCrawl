@@ -1069,7 +1069,6 @@
     <script src="/wp-content/themes/ibotcrawl/assets/plugins/mapplic/js/hammer.js"></script>
     <script src="/wp-content/themes/ibotcrawl/assets/plugins/mapplic/js/jquery.mousewheel.js"></script>
     <script src="/wp-content/themes/ibotcrawl/assets/plugins/mapplic/js/mapplic.js"></script>
-    <script src="/wp-content/themes/ibotcrawl/assets/js/dashboard.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
     <!-- END VENDOR JS -->
     <!-- BEGIN CORE TEMPLATE JS -->
