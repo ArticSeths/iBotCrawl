@@ -437,7 +437,6 @@ body.menu-pin .overlay .overlay-brand {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  width: 65%;
 }
 .page-sidebar .sidebar-menu .menu-items > li {
   display: block;
