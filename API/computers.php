@@ -29,7 +29,7 @@ if(!$flag_permitido){
 }
 
 // -------------------------------------------
-
+echo 'entra:' ;
 //Comenzamos API computers
 if($req == "get_computers"){
     $sql = $wpdb->get_results($wpdb->prepare('SELECT * FROM list_computers WHERE user_id = %d', $user_id));
