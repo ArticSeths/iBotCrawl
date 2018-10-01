@@ -5,15 +5,20 @@ $req = $_REQUEST['opt'];
 // Chequeamos si el usuario tiene permisos para hacer peticiones aqui
 require_once('../wp-load.php');
 global $wpdb;
-$user_id = get_current_user_id();
-$user = get_userdata( $user_id );
-$user_roles = $user_meta->roles;
-print_r($user_roles);
+function restrictly_get_current_user_role() {
+    if( is_user_logged_in() ) {
+      $user = wp_get_current_user();
+      $role = ( array ) $user->roles;
+      return $role[0];
+    } else {
+      return false;
+    }
+}
 
 $roles_permitidos = array('subscriber', 'administrator');
 $flag_permitido = false;
 foreach($roles_permitidos as $role){
-    if ( in_array( $role, $user_roles, true ) ) {
+    if ( $role === restrictly_get_current_user_role() ) {
         $flag_permitido = true;
     }
 }
