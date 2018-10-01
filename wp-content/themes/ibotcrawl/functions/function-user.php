@@ -7,6 +7,6 @@ function myplugin_registration_save( $user_id ) {
     shuffle($seed);
     $rand = '';
     foreach (array_rand($seed, 12) as $k) $rand .= $seed[$k];
-    update_user_meta($user_id, 'user_token', $rand);
+    add_user_meta($user_id, 'user_token', $rand);
 }
 ?>
