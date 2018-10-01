@@ -10,6 +10,7 @@ $user = get_userdata( $user_id );
 $user_roles = $user_meta->roles;
 
 if ( !in_array( 'subscriber', $user_roles, true ) ) {
+    echo 'no tienes permiso para acceder a esta pantalla';
     exit;
 }
 // -------------------------------------------
