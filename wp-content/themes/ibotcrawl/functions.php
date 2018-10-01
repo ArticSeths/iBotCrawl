@@ -1,4 +1,11 @@
 <?php
+
+// requerimos todos los functions
+foreach(glob("./functions/function-*.php") as $file){
+    require $file;
+}
+
+
 // CARGAMOS LOGOTIPO
 function blog_favicon() {
     echo '<link rel="apple-touch-icon" sizes="76x76" href="'.get_template_directory_uri().'/assets/img/apple-icon.png">';
