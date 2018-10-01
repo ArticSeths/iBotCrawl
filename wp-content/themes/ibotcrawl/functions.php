@@ -1,11 +1,9 @@
 <?php
 
 // requerimos todos los functions
-error_log(scandir(dirname(__FILE__).'/functions/'));
 foreach (scandir(dirname(__FILE__).'/functions/' ) as $filename) {
     $path = dirname(__FILE__) . '/functions/' . $filename;
     if (is_file($path)) {
-        error_log($path);
         require $path;
     }
 }

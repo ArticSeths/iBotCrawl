@@ -2,7 +2,6 @@
 
 // hook cuando un usario se registra
 add_action( 'user_register', 'myplugin_registration_save', 10, 1 );
-error_log('entra function');
 function myplugin_registration_save( $user_id ) {
     $seed = str_split('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789');
     shuffle($seed);
