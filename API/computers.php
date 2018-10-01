@@ -6,6 +6,7 @@ $req = $_REQUEST['opt'];
 require_once('../wp-load.php');
 global $wpdb;
 $user_id = get_current_user_id();
+echo $user_id;
 $user = get_userdata( $user_id );
 $user_roles = $user_meta->roles;
 
