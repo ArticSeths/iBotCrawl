@@ -1075,10 +1075,6 @@
     <!-- BEGIN CORE TEMPLATE JS -->
     <script src="/wp-content/themes/ibotcrawl/assets/js/pages.min.js"></script>
     <!-- END CORE TEMPLATE JS -->
-    <!-- BEGIN PAGE LEVEL JS -->
-    <script src="/wp-content/themes/ibotcrawl/assets/js/dashboard.js" type="text/javascript"></script>
-    <script src="/wp-content/themes/ibotcrawl/assets/js/scripts.js" type="text/javascript"></script>
-    <!-- END PAGE LEVEL JS -->
     <script>
       var timeInterval = 100;
       // instantiate our graph!
