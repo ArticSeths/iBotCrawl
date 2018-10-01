@@ -222,7 +222,7 @@
          * ============================================================ */
 
         // Load chart data
-        d3.json('http://pages.revox.io/json/charts.json', function(data) {
+        d3.json('https://pages.revox.io/json/charts.json', function(data) {
 
             (function() {
 
