@@ -5,6 +5,7 @@ $req = $_REQUEST['opt'];
 // Chequeamos si el usuario tiene permisos para hacer peticiones aqui
 require_once('../wp-load.php');
 global $wpdb;
+$user_id = get_current_user_id();
 function restrictly_get_current_user_role() {
     if( is_user_logged_in() ) {
       $user = wp_get_current_user();
@@ -29,7 +30,7 @@ if(!$flag_permitido){
 }
 
 // -------------------------------------------
-echo 'entra:' ;
+
 //Comenzamos API computers
 if($req == "get_computers"){
     $sql = $wpdb->get_results($wpdb->prepare('SELECT * FROM list_computers WHERE user_id = %d', $user_id));
