@@ -27,6 +27,7 @@
     <link href="/wp-content/themes/ibotcrawl/assets/css/dashboard.widgets.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="/wp-content/themes/ibotcrawl/assets/css/pages-icons.css" rel="stylesheet" type="text/css">
     <link class="main-stylesheet" href="/wp-content/themes/ibotcrawl/assets/css/themes/light.css" rel="stylesheet" type="text/css" />
+    <link href="/wp-content/themes/ibotcrawl/assets/css/style.css" rel="stylesheet" type="text/css" />
     <?php wp_head(); ?>
   </head>
   <body class="fixed-header dashboard menu-pin">
