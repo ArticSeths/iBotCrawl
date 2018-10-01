@@ -1,8 +1,9 @@
 <?php
 
 // requerimos todos los functions
-foreach(glob("./functions/function-*.php") as $file){
-    require $file;
+foreach(glob("functions/function-*.php") as $file){
+    error_log($file);
+    require_once($file);
 }
 
 
