@@ -35,14 +35,14 @@ get_header();
                 <!-- START WIDGET widget_map_sales-->
                 <!-- START ITEM -->
                 <div class="card card-default no-border" data-social="item">
-                  <div class="card-header ">
-                    <h5 class="text-primary pull-right fs-12">Online <i class="fa fa-circle text-complete fs-11"></i></h5>
+                  <div class="card-header" style="padding: 10px;">
+                    <h5 class="text-primary pull-right fs-12 m-0">Online <i class="fa fa-circle text-complete fs-11"></i></h5>
                     <div class="clearfix"></div>
                   </div>
-                  <div class="card-description" style="background: #e8eff1;">
-                    <img src="/images/os/windows-10-logo.png">
+                  <div class="card-block" style="background: #e8eff1;padding-top: 20px;">
+                    <img src="/images/os/windows-10-logo.png" style="width: 100%;">
                   </div>
-                  <div class="card-description">
+                  <div class="card-block">
                     <h5 style="text-align: center;">Diego-PC</h5>
                   </div>
                   <div class="card-footer clearfix">
