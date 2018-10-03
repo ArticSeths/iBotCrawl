@@ -27,9 +27,38 @@ get_header();
                 </ol>
               </div>
             </div>
-		  </div>
-		</div>
-	  </div>
+		      </div>
+          <div class="container-fluid p-l-25 p-r-25 p-t-0 p-b-25 sm-padding-10">
+            <!-- START ROW -->
+            <div class="row">
+              <div class="col-lg-3 col-sm-6  d-flex flex-column">
+                <!-- START WIDGET widget_map_sales-->
+                <!-- START ITEM -->
+                <div class="card card-default no-border" data-social="item">
+                  <div class="card-header ">
+                    <h5 class="text-primary pull-right fs-12">Online <i class="fa fa-circle text-complete fs-11"></i></h5>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="card-description" style="background: #e8eff1;">
+                    <img src="/images/os/windows-10-logo.png">
+                  </div>
+                  <div class="card-description">
+                    <h5 style="text-align: center;">Diego-PC</h5>
+                  </div>
+                  <div class="card-footer clearfix">
+                    <div class="pull-left">via <span class="text-complete">Pages</span>
+                    </div>
+                    <div class="pull-right hint-text">
+                      July 23
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		    </div>
+	    </div>
 <?php
 get_footer();
 ?>
