@@ -34,7 +34,7 @@ get_header();
               <div class="col-lg-3 col-sm-6  d-flex flex-column">
                 <!-- START WIDGET widget_map_sales-->
                 <!-- START ITEM -->
-                <div class="card card-default no-border" data-social="item">
+                <div class="card card-default no-border" data-social="item" style="box-shadow: 0px 0px 8px 0px #00000026;border-radius: 4px;">
                   <div class="card-header" style="padding: 10px;">
                     <h5 class="text-primary pull-right fs-12 m-0">Online <i class="fa fa-circle text-complete fs-11"></i></h5>
                     <h5 style="text-align: center;" class="pull-left m-0">Diego-PC</h5>
@@ -43,16 +43,13 @@ get_header();
                   <div class="card-block" style="background: #e8eff1;padding-top: 20px;">
                     <img src="/images/os/windows-10-logo.png" style="width: 100%;">
                   </div>
-                  <div class="card-block">
-                    
+                  <div class="card-block separator pb-0">
+                    <p>IP: 192.168.1.1</p>
+                    <p>MAC: 00:00:00:00:00:00</p>
+                    <hr class="m-0">
                   </div>
-                  <div class="card-footer clearfix">
-                    <div class="pull-left">via <span class="text-complete">Pages</span>
-                    </div>
-                    <div class="pull-right hint-text">
-                      July 23
-                    </div>
-                    <div class="clearfix"></div>
+                  <div class="text-center">
+                    <i class="fas fa-caret-down"></i>
                   </div>
                 </div>
               </div>
